@@ -103,8 +103,12 @@ const LKPDModule: React.FC = () => {
                         
                         <div className="flex flex-col md:flex-row gap-6">
                             <div className="md:w-1/3">
-                                <div className="bg-gray-200 dark:bg-slate-700 w-full h-40 rounded-lg flex items-center justify-center text-gray-400 mb-2 overflow-hidden">
-                                     <i className="fas fa-car-crash text-5xl opacity-50"></i>
+                                <div className="w-full h-40 rounded-lg mb-2 overflow-hidden shadow-sm border border-gray-100 dark:border-slate-700">
+                                     <img 
+                                        src="https://media.istockphoto.com/id/1448653676/id/vektor/kecelakaan-mobil-di-jalan-tabrakan-mobil-dengan-mobil-lain-kecelakaan-mobil.jpg?s=170667a&w=0&k=20&c=E3PVcjcn0bOKu5P-Bu1G9cr535iLeqmkLL4X_J-7Zfo=" 
+                                        alt="Ilustrasi Kecelakaan Mobil" 
+                                        className="w-full h-full object-cover"
+                                     />
                                 </div>
                                 <p className="text-xs text-center italic text-gray-500 dark:text-gray-400">Gambar 5. Ilustrasi Kecelakaan Mobil</p>
                             </div>
